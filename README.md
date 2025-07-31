@@ -38,15 +38,32 @@ This repository contains the archived scripts, configurations, and assets used i
     ```
 
 ## Directory Structure
+
 ```
-noel_curiosity24/
-│
-├── src/               # Source code for the experiment
-├── assets/            # Images, audio, and other experiment assets
-├── data/              # Output data from experiment runs
-├── docs/              # Documentation and additional resources
-├── tests/             # Unit and integration tests
-└── README.md          # Project overview and instructions
+Noel_SocCuriosity.py          # Main Python script to run the experiment logic
+README.md                     # Project documentation
+bg.png                        # Background image for the experiment interface
+
+fontpack/                     # Package of fonts for the experiment
+
+header_list.xlsx              # Headlines suggested in the 1st phase of the experiment
+header_list_original.xlsx     # Previous version of header_list.xlsx
+
+hotfix_tick_post.png          # Jury-rigged patch for display issue on Japanese version, 2nd phase
+hotfix_tick_pre.png           # Jury-rigged patch for display issue on Japanese version, 1st phase
+
+image_list.xlsx               # List of post images shown in the 2nd phase
+
+main.psyexp                   # PsychoPy experiment file (used to run the experiment in PsychoPy)
+
+post_list.xlsx                # List of posts (metadata) shown in the 2nd phase
+post_list_original.xlsx       # Previous version of post_list.xlsx
+
+posts/                        # Image files of posts
+
+reference_values.txt          # Contains reference values or constants used in the experiment
+
+resources/                    # Directory containing supplementary resources for the experiment (e.g., instructions, configuration files)
 ```
 
 ## Contributing
