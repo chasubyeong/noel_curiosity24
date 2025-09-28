@@ -2,7 +2,6 @@
 
 **Legacy Code Notice:**  
 This experiment was built upon legacy code originally developed in the Cognitive Science Lab, Kyushu University. The current version includes several modifications.
-Major modifications were annotated with **#modified for Noel_Curiosity24** in respective code.
 
 Noel Curiosity 24 **was a PsychoPy experiment** created for the thesis titled:  
 **"What Keeps Us Coming Back for More: An Experimental Study on How Answer Exposure and Social Cues Modulate Curiosity and Memory in Digital Contexts"**,  
