@@ -1,5 +1,9 @@
 # Noel Curiosity 24
 
+**Legacy Code Notice:**  
+This experiment was built upon legacy code originally developed in the Cognitive Science Lab, Kyushu University. The current version includes several modifications.
+Major modifications were annotated with **#modified for Noel_Curiosity24** in respective code.
+
 Noel Curiosity 24 **was a PsychoPy experiment** created for the thesis titled:  
 **"What Keeps Us Coming Back for More: An Experimental Study on How Answer Exposure and Social Cues Modulate Curiosity and Memory in Digital Contexts"**,  
 conducted at **Kyushu University, School of Systems Life Science, Cognitive Science Lab**.
@@ -7,28 +11,33 @@ conducted at **Kyushu University, School of Systems Life Science, Cognitive Scie
 This repository contains the archived scripts, configurations, and assets used in the experiment.
 
 ## Features
-- PsychoPy compatibility for building and running psychological experiments.
-- Modular Python code for ease of customization.
-- [Optional] Add more features as you develop the project.
+- **PsychoPy Compatibility**  
+  Fully compatible with PsychoPy, enabling seamless design, execution, and data collection for psychological experiments.
+- **Joystick Support**  
+  Integrated joystick/controller input compatibility, allowing for more interactive and versatile experimental paradigms—ideal for studies requiring precise or alternative response modalities beyond standard keyboard/mouse input.
+- **Modular Python Architecture**  
+  Experiment scripts and logic are organized in a modular fashion, making it easy to customize, extend, and maintain the code base for different experimental setups or research questions.
+- **Customizable Experimental Flow**  
+  Easily modify phases, stimuli presentation order, timing parameters, and feedback mechanisms to fit a variety of experimental designs.
+- **Stimuli and Resource Management**  
+  Centralized handling of images, fonts, and other assets—resources are organized for straightforward access and swapping as needed.
+- **Excel-Based Stimuli Lists**  
+  Stimuli (e.g., headlines, posts, images) are managed via Excel files, allowing researchers to update or randomize content without modifying code.
+- **Configurable Reference Values**  
+  Reference values and experiment constants are maintained in dedicated files for easy adjustment and reproducibility.
+- **Multi-Phase Task Structure**  
+  Supports complex multi-phase experiments (e.g., curiosity induction, memory testing, social cue manipulation), with clear separation of logic and assets for each phase.
+- **Hotfixes & Localization Support**  
+  Includes assets and patches (e.g., display fixes for Japanese version) to ensure the experiment functions correctly across languages and system configurations.
+- **Archival and Reproducibility Focus**  
+  Scripts, configurations, and assets are maintained for archival and reproducibility purposes, facilitating future reference or replication.
+- **Documentation & Directory Structure**  
+  Well-documented project structure for ease of navigation, onboarding, and reference by future researchers or collaborators.
 
 ## Prerequisites
 - **PsychoPy v.2024.2.4** installed on your system.
 - Python 3.8 or higher.
-- Dependencies listed in `requirements.txt` (if applicable).
 
-## Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/chasubyeong/noel_curiosity24.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd noel_curiosity24
-    ```
-3. Install dependencies (if applicable):
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ## Usage
 1. Open PsychoPy and load the project file (e.g., `.psyexp` if provided).
